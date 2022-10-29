@@ -1,0 +1,30 @@
+body {
+    background-image: url(./images/change.jpg);
+    background-color: aquamarine;
+    background-size: cover;
+    display: grid;
+    place-items: start center;
+    margin-top: 3.5em;
+}
+
+.pg-head {
+    align-items: center;
+}
+
+.pg-main {
+    padding-top: 3.2em;
+}
+
+.pg-main h1 {
+    font-size: 50px;
+}
+.pg-main p {
+    padding-left: 6.5em;
+}
+
+.image-1 {
+    width: 27px;
+    height: 27px;
+    padding-left: 3em;
+}
+
