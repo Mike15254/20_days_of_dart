@@ -1,0 +1,75 @@
+body {
+    background-image: url(./images/change.jpg);
+    background-color: #ffff;
+    background-size: cover;
+    display: grid;
+    place-items: start center;
+    margin-top: 3.5em;
+}
+
+.pg-head {
+    align-items: center;
+}
+
+.pg-main {
+    padding-top: 3.2em;
+}
+
+.pg-main h1 {
+    font-size: 50px;
+}
+.pg-main p {
+    padding-left: 6.5em;
+}
+
+.image-1 {
+    width: 27px;
+    height: 27px;
+    padding-left: 3em;
+}
+
+
+.frm-2 {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0 20px 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.frm-1 {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0 20px 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+button {
+    width: 25%;
+    padding: 1em;
+    margin: 0;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    left: 260px;
+    margin-top: 40px;
+    background: transparent;
+   border-radius: 5px;
+}
+button:hover,
+button:focus {
+  outline: none;
+  background: aquamarine;
+  color: black;
+  transition: 0.7s;
+}
