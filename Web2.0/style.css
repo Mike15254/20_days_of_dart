@@ -1,0 +1,42 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+
+/* ========== Grid template to emulate our layout ===== */
+
+#dashboard {
+    display: grid;
+    grid-template-areas: 
+      "nav header header"
+      "nav content content"
+      "nav content content";
+    height: 100vh;
+    width: 100%;
+    grid-template-rows: 80px 1fr;
+    grid-template-columns: 100px 1fr;
+}
+
+
+/* ===========Define which html element corresponds to grid tempale are =====*/
+
+nav {
+    background: red;
+    grid-area: nav;
+}
+
+header {
+    background: violet;
+    grid-area: header;
+    position: relative;
+}
+
+header .header-style {
+    text-align: center;
+}
+
+main {
+    background: greenyellow;
+    grid-area: content;
+    text-align: center;
+}
