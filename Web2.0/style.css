@@ -1,6 +1,13 @@
+:root {
+    --clr-body-bg: hs1(0 0% 90%);
+    --clr-card-bg: hs1(0 0% 100%);
+    --clr-text: hs1(0 0% 15%);
+    --clr-heading: hs1(0 0% 25%);
+}
+
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 0px;
+    margin: 0;
+    font-family: 'Robot', sans-serif;
 }
 
 /* ========== Grid template to emulate our layout ===== */
@@ -23,10 +30,12 @@ body {
 nav {
     background: red;
     grid-area: nav;
+    width: fit-content;
+    padding: 1rem;
 }
 
 header {
-    background: violet;
+    background: var(--clr-body-bg);
     grid-area: header;
     position: relative;
 }
@@ -39,4 +48,25 @@ main {
     background: greenyellow;
     grid-area: content;
     text-align: center;
+}
+
+.card {
+    background-color: aqua;
+    padding: 1rem;
+    margin: 1rem 1rem 1rem 1rem;
+    border: 2px solid brown;
+    border-radius: 0rem;
+}
+
+.card-header {
+    font-size: 1.5rem;
+    margin-top: 0.5;
+}
+
+.card-body {
+    font-size: .9rem;
+}
+
+.card-footer {
+    margin-top: 1rem;
 }
