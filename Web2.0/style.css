@@ -8,11 +8,12 @@
 body {
     margin: 0;
     font-family: 'Robot', sans-serif;
+    width: 90vw;
 }
 
 /* ========== Grid template to emulate our layout ===== */
 
-#dashboard {
+/*#dashboard {
     display: grid;
     grid-template-areas: 
       "nav header header"
@@ -29,9 +30,17 @@ body {
 
 nav {
     background: red;
+    display: flex;
     grid-area: nav;
-    width: fit-content;
+    text-decoration: none;
+}
+.nav-items a {
+    margin-top: 3rem;
+    color: aquamarine;
+    display: block;
+    text-decoration: none;
     padding: 1rem;
+    font-size: 20px;
 }
 
 header {
@@ -45,7 +54,7 @@ header .header-style {
 }
 
 main {
-    background: greenyellow;
+    background-color: beige;
     grid-area: content;
     text-align: center;
 }
