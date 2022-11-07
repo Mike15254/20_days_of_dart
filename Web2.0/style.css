@@ -6,15 +6,19 @@
 }
 
 body {
-    margin: 0;
+    background-color: brown;
+    border: 20px solid aqua;
+    margin: 30px;
+    box-sizing: border-box;
     font-family: 'Robot', sans-serif;
-    width: 90vw;
+   
 }
 
 /* ========== Grid template to emulate our layout ===== */
 
-/*#dashboard {
+#dashboard {
     display: grid;
+    position: relative;
     grid-template-areas: 
       "nav header header"
       "nav content content"
@@ -30,6 +34,7 @@ body {
 
 nav {
     background: red;
+    position: sticky;
     display: flex;
     grid-area: nav;
     text-decoration: none;
@@ -46,7 +51,7 @@ nav {
 header {
     background: var(--clr-body-bg);
     grid-area: header;
-    position: relative;
+    position: sticky;
 }
 
 header .header-style {
@@ -55,12 +60,14 @@ header .header-style {
 
 main {
     background-color: beige;
+    position: absolute;
     grid-area: content;
     text-align: center;
 }
 
 .card {
     background-color: aqua;
+    position: absolute;
     padding: 1rem;
     margin: 1rem 1rem 1rem 1rem;
     border: 2px solid brown;
