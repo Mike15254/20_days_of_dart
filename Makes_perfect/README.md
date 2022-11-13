@@ -1,2 +1,2 @@
 # Practice makes perfect :satisfied:
-In this repo l will be building practising ne skills :muscle:
+In this repo l will be building  my skills :muscle:
